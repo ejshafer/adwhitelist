@@ -58,7 +58,6 @@ import Home from './pages/Home';
 import Licenses from './pages/Licenses';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
-import UnbanService from './pages/UnbanService';
 import __Layout from './Layout.jsx';
 
 
@@ -74,7 +73,6 @@ export const PAGES = {
     "Licenses": Licenses,
     "Privacy": Privacy,
     "Terms": Terms,
-    "UnbanService": UnbanService,
 }
 
 export const pagesConfig = {
