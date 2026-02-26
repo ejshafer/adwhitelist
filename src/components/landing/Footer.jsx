@@ -7,7 +7,6 @@ const footerLinks = {
   Product: [
     { name: "Features", href: "#features" },
     { name: "Pricing", href: "#pricing" },
-    { name: "Unban Service", href: createPageUrl("UnbanService") },
     { name: "How It Works", href: "#how-it-works" }
   ],
   Company: [

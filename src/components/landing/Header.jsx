@@ -30,12 +30,6 @@ export default function Header() {
               Home
             </Link>
             <Link
-              to={createPageUrl("UnbanService")}
-              className="text-gray-600 hover:text-purple-600 transition-colors font-medium"
-            >
-              Unban Service
-            </Link>
-            <Link
               to={createPageUrl("Contact")}
               className="text-gray-600 hover:text-purple-600 transition-colors font-medium"
             >
@@ -85,13 +79,6 @@ export default function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Home
-              </Link>
-              <Link
-                to={createPageUrl("UnbanService")}
-                className="block text-gray-600 hover:text-purple-600 transition-colors font-medium py-2"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Unban Service
               </Link>
               <Link
                 to={createPageUrl("Contact")}
